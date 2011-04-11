@@ -20,7 +20,7 @@ BuildRequires:	rpmbuild(macros) >= 1.610
 Requires:	php-channel(pear.horde.org)
 Requires:	php-horde-Horde_Translation <= 2.0.0
 Requires:	php-horde-Horde_Util <= 2.0.0
-Requires:	php-pear
+Requires:	php-pear >= 4:1.3.6-2
 Suggests:	php-geoip
 Suggests:	php-pear-Net_DNS2
 BuildArch:	noarch
