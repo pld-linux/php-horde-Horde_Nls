@@ -11,7 +11,7 @@ License:	LGPL
 Group:		Development/Languages/PHP
 Source0:	http://pear.horde.org/get/%{pearname}-%{version}.tgz
 # Source0-md5:	ebb99d4ca75a55e15a80b793b6019b34
-URL:		http://pear.horde.org/package/Horde_Nls/
+URL:		https://github.com/horde/horde/tree/master/framework/Nls/
 BuildRequires:	php-channel(pear.horde.org)
 BuildRequires:	php-packagexml2cl
 BuildRequires:	php-pear-PEAR >= 1:1.7.0
