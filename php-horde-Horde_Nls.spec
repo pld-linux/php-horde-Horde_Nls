@@ -6,7 +6,7 @@
 Summary:	%{pearname} - This package provides Native Language Support (NLS)
 Name:		php-horde-Horde_Nls
 Version:	1.0.0
-Release:	1
+Release:	2
 License:	LGPL
 Group:		Development/Languages/PHP
 Source0:	http://pear.horde.org/get/%{pearname}-%{version}.tgz
@@ -21,8 +21,9 @@ Requires:	php-channel(pear.horde.org)
 Requires:	php-horde-Horde_Translation <= 2.0.0
 Requires:	php-horde-Horde_Util <= 2.0.0
 Requires:	php-pear >= 4:1.3.6-2
-Suggests:	php-geoip
 Suggests:	php-pear-Net_DNS2
+# http://bugs.horde.org/ticket/10032
+Suggests:	php-pecl-geoip
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
