@@ -5,12 +5,12 @@
 %include	/usr/lib/rpm/macros.php
 Summary:	%{pearname} - This package provides Native Language Support (NLS)
 Name:		php-horde-Horde_Nls
-Version:	1.0.0
-Release:	2
+Version:	1.0.1
+Release:	1
 License:	LGPL
 Group:		Development/Languages/PHP
 Source0:	http://pear.horde.org/get/%{pearname}-%{version}.tgz
-# Source0-md5:	ebb99d4ca75a55e15a80b793b6019b34
+# Source0-md5:	e214d431710fc08079004c72987fd526
 URL:		https://github.com/horde/horde/tree/master/framework/Nls/
 BuildRequires:	php-channel(pear.horde.org)
 BuildRequires:	php-packagexml2cl
@@ -18,11 +18,10 @@ BuildRequires:	php-pear-PEAR >= 1:1.7.0
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
 BuildRequires:	rpmbuild(macros) >= 1.610
 Requires:	php-channel(pear.horde.org)
-Requires:	php-horde-Horde_Translation <= 2.0.0
-Requires:	php-horde-Horde_Util <= 2.0.0
+Requires:	php-horde-Horde_Translation < 2.0.0
+Requires:	php-horde-Horde_Util < 2.0.0
 Requires:	php-pear >= 4:1.3.6-2
 Suggests:	php-pear-Net_DNS2
-# http://bugs.horde.org/ticket/10032
 Suggests:	php-pecl-geoip
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
