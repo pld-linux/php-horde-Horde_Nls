@@ -5,12 +5,12 @@
 %include	/usr/lib/rpm/macros.php
 Summary:	%{pearname} - This package provides Native Language Support (NLS)
 Name:		php-horde-Horde_Nls
-Version:	1.0.1
+Version:	1.0.2
 Release:	1
 License:	LGPL
 Group:		Development/Languages/PHP
 Source0:	http://pear.horde.org/get/%{pearname}-%{version}.tgz
-# Source0-md5:	e214d431710fc08079004c72987fd526
+# Source0-md5:	7428511457baa1f2616f0cf406a338bc
 URL:		https://github.com/horde/horde/tree/master/framework/Nls/
 BuildRequires:	php-channel(pear.horde.org)
 BuildRequires:	php-packagexml2cl
