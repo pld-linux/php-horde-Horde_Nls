@@ -2,7 +2,6 @@
 # - use system locale dir
 %define		status		stable
 %define		pearname	Horde_Nls
-%include	/usr/lib/rpm/macros.php
 Summary:	%{pearname} - This package provides Native Language Support (NLS)
 Name:		php-horde-Horde_Nls
 Version:	1.1.6
